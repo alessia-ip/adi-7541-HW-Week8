@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd196275fe43ee64ba8ff5abe14a2a6c, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  header: Start Block
+  bodyText: Everything is $dark. % @The only sounds are the soft pattering drops
+    of $ faraway rain %, and your own breathing.
+  importantWords:
+  - dark
+  - faraway
+  - rain
+  newBlocks:
+  - {fileID: 11400000, guid: 9271724b449d6ec4e960c5999f3d6e1b, type: 2}
+  - {fileID: 11400000, guid: 9664576c37ee85943a04d2e9a7668378, type: 2}
+  - {fileID: 11400000, guid: 9664576c37ee85943a04d2e9a7668378, type: 2}

@@ -157,7 +157,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -230,12 +230,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 653328548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0a9d55fcdc5883448b0a83189c2c44d, type: 3}
+  m_Script: {fileID: 11500000, guid: f3ef22f8e27811b4296d8c16b14d86f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textHolder: {fileID: 886109267}
-  gameText: {fileID: 886109267}
+  textBox: {fileID: 886109267}
+  currentObject: {fileID: 11400000, guid: aaccbf62013387049a29d9d8b43df8e0, type: 2}
   cam: {fileID: 519420031}
+  cursorReg: {fileID: 2800000, guid: 3e67c8fb24978d949b1c3d072edf1373, type: 3}
+  cursorHov: {fileID: 2800000, guid: 16f289fb60bf34941a22c10ae959055e, type: 3}
 --- !u!4 &653328550
 Transform:
   m_ObjectHideFlags: 0
@@ -261,7 +263,6 @@ GameObject:
   - component: {fileID: 886109266}
   - component: {fileID: 886109268}
   - component: {fileID: 886109267}
-  - component: {fileID: 886109269}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -285,8 +286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0.49, y: -0.23}
+  m_SizeDelta: {x: 390.3087, y: 210.0775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886109267
 MonoBehaviour:
@@ -316,8 +317,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -334,8 +335,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -384,32 +385,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886109265}
   m_CullTransparentMesh: 0
---- !u!61 &886109269
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886109265}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &1699478687
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,10 +433,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 565.08, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
