@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd196275fe43ee64ba8ff5abe14a2a6c, type: 3}
   m_Name: Start
   m_EditorClassIdentifier: 
-  header: Start Block
+  header: You are alone.
   bodyText: Everything is $dark. % @The only sounds are the soft pattering drops
-    of $ faraway rain %, and your own breathing.
+    of $faraway rain%, and your own breathing.
   importantWords:
   - dark
   - faraway

@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd196275fe43ee64ba8ff5abe14a2a6c, type: 3}
-  m_Name: Darkness
+  m_Name: Far
   m_EditorClassIdentifier: 
-  header: Darkness.
-  bodyText: Not so dark as to be pure black.@But dark enough that only $faint outlines%
-    are visible as your eyes adjust.@@$Go%.
+  header: So distant.
+  bodyText: 'If you were to $reach out% you would not touch water.@Instead, your
+    fingers press against cold, smooth stone. '
   importantWords:
-  - faint
-  - outlines
-  - Go
+  - reach
+  - out
   newBlocks:
-  - {fileID: 11400000, guid: 5e4556493d3e2c14283c7b65beb9c140, type: 2}
-  - {fileID: 11400000, guid: 5e4556493d3e2c14283c7b65beb9c140, type: 2}
+  - {fileID: 11400000, guid: 68c6afea99be1bb46980f243112ca7b2, type: 2}
   - {fileID: 11400000, guid: 68c6afea99be1bb46980f243112ca7b2, type: 2}

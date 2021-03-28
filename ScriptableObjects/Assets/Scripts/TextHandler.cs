@@ -12,6 +12,7 @@ namespace TMP_TextUtilities //using the TMP utilities since they include a funct
    public class TextHandler : MonoBehaviour
    {
       public TextMeshProUGUI textBox;
+      public TextMeshProUGUI titleBox;
       public TextBlockScriptableObject currentObject;
       public Camera cam;
 
@@ -50,6 +51,7 @@ namespace TMP_TextUtilities //using the TMP utilities since they include a funct
          textString = textString.Replace("$", "<b><color=#2e7e99>");
          textString = textString.Replace("%", "</color></b>");
          textBox.text = textString;
+         titleBox.text = currentObject.header;
       }
 
       void hoverText()
@@ -61,6 +63,9 @@ namespace TMP_TextUtilities //using the TMP utilities since they include a funct
             textBox.transform.position.z);
          //the word number I get using the find intersecting word
          //this gets the # at the position i've specified
+         
+         //reference string interpolation: https://diegogiacomelli.com.br/unitytips-string-interpolation/
+         //thanks Moochi uwu
          
          if(TMPro.TMP_TextUtilities.FindIntersectingWord(textBox, mousePos, cam) >= 0)
          {

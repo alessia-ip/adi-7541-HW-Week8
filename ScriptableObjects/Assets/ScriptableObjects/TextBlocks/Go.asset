@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd196275fe43ee64ba8ff5abe14a2a6c, type: 3}
-  m_Name: Faraway Rain
+  m_Name: Go
   m_EditorClassIdentifier: 
-  header: pitter-patter
-  bodyText: The rain is a constant. Steady. But muted.@Wherever you are now, the
-    rain is $far%.@@$Go%.
+  header: 'You reach out. '
+  bodyText: Feeling your way in front of yourself, your hands meet cool stone.@@Step.@@By
+    step.@@$You head forward.%
   importantWords:
-  - far
-  - Go
+  - You
+  - head
+  - forward
   newBlocks:
-  - {fileID: 11400000, guid: 90092dc69db00eb419476e480b27a4aa, type: 2}
-  - {fileID: 11400000, guid: 68c6afea99be1bb46980f243112ca7b2, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
