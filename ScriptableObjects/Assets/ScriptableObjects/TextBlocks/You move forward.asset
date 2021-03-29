@@ -10,16 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd196275fe43ee64ba8ff5abe14a2a6c, type: 3}
-  m_Name: Go
+  m_Name: You move forward
   m_EditorClassIdentifier: 
-  header: 'You reach out. '
-  bodyText: Feeling your way in front of yourself, your hands meet cool stone.@@Step.@@By
-    step.@@$You head forward.%
+  header: It's a slow shuffle.
+  bodyText: $Advancing% slowly through the gloom.
   importantWords:
-  - You
-  - head
-  - forward
+  - Advancing
   newBlocks:
-  - {fileID: 11400000, guid: b2769f430c36647cdb28efd2f0a70b47, type: 2}
-  - {fileID: 11400000, guid: b2769f430c36647cdb28efd2f0a70b47, type: 2}
-  - {fileID: 11400000, guid: b2769f430c36647cdb28efd2f0a70b47, type: 2}
+  - {fileID: 11400000, guid: 04df2fc455c334b8f98f7a540fc54e48, type: 2}
