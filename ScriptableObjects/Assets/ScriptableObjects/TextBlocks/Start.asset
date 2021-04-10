@@ -14,12 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: You are alone.
   bodyText: Everything is $dark. % @The only sounds are the soft pattering drops
-    of $faraway rain%, and your own breathing.
+    of $far away rain%, and your own breathing.
   importantWords:
   - dark
-  - faraway
+  - far
   - rain
+  - away
   newBlocks:
   - {fileID: 11400000, guid: 9271724b449d6ec4e960c5999f3d6e1b, type: 2}
+  - {fileID: 11400000, guid: 9664576c37ee85943a04d2e9a7668378, type: 2}
   - {fileID: 11400000, guid: 9664576c37ee85943a04d2e9a7668378, type: 2}
   - {fileID: 11400000, guid: 9664576c37ee85943a04d2e9a7668378, type: 2}
